@@ -20,7 +20,8 @@ public class HomeFragment extends Fragment {
         return parentView;
     }
 
-    private void setUpViews() {
+    private void setUpViews() 
+    {
         MenuActivity parentActivity = (MenuActivity) getActivity();
         resideMenu = parentActivity.getResideMenu();
 
